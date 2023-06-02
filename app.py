@@ -1,6 +1,7 @@
 
 import streamlit as st
 import pickle
+import sklearn
 
 # Load the trained model
 with open('health_insurance_model.pkl', 'rb') as f:
